@@ -28,9 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		32DC4A5D66CCB911E6C2AD35 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		32DC4A5D66CCB911E6C2AD35 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3CCC91A05A59768118611FE1 /* Pods-MoyaTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoyaTool_Example.debug.xcconfig"; path = "Target Support Files/Pods-MoyaTool_Example/Pods-MoyaTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		411DF25951C8CA9ECC3E7D2D /* MoyaTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MoyaTool.podspec; path = ../MoyaTool.podspec; sourceTree = "<group>"; };
+		411DF25951C8CA9ECC3E7D2D /* MoyaTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MoyaTool.podspec; path = ../MoyaTool.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		44226DD9EE4143F31992494A /* Pods-MoyaTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoyaTool_Example.release.xcconfig"; path = "Target Support Files/Pods-MoyaTool_Example/Pods-MoyaTool_Example.release.xcconfig"; sourceTree = "<group>"; };
 		44FEACF6E58F35FF1EF0AACA /* Pods-MoyaTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoyaTool_Tests.release.xcconfig"; path = "Target Support Files/Pods-MoyaTool_Tests/Pods-MoyaTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* MoyaTool_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoyaTool_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,7 +43,7 @@
 		607FACE51AFB9204008FA782 /* MoyaTool_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoyaTool_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		968611175300942A04D4D6A3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		968611175300942A04D4D6A3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D0E90A9DD2BA8D022BC544C2 /* Pods_MoyaTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoyaTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBFE291FF568C4F06C1A5326 /* Pods-MoyaTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoyaTool_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MoyaTool_Tests/Pods-MoyaTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FE65A3E95584C00B7BC93D69 /* Pods_MoyaTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoyaTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -147,7 +147,6 @@
 				EBFE291FF568C4F06C1A5326 /* Pods-MoyaTool_Tests.debug.xcconfig */,
 				44FEACF6E58F35FF1EF0AACA /* Pods-MoyaTool_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

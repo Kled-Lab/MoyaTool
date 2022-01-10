@@ -1,0 +1,16 @@
+PODS:
+  - MoyaTool (0.1.0)
+
+DEPENDENCIES:
+  - MoyaTool (from `../`)
+
+EXTERNAL SOURCES:
+  MoyaTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MoyaTool: 8774e9ea589e190568985ae0278d80a3a6ab9610
+
+PODFILE CHECKSUM: 32bbe90f3ad69b6348ca697ecd6acffeb0d10e18
+
+COCOAPODS: 1.11.2
